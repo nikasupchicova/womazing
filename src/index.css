@@ -1,0 +1,45 @@
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+
+.container {
+	max-width: 1000px;
+	width: 100%;
+	display: block;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/* .header */
+
+.header__wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__nav {
+	display: flex;
+	gap: 10px;
+}
+
+.header__phone-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+
+/* .header */
